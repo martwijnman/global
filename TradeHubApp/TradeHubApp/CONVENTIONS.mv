@@ -1,0 +1,652 @@
+- packages: WinUI, EntityFrameworkCore, BCrypt.Net
+
+---
+
+## versions
+- WinUI: 3
+- C#: 12
+- .NET: 8
+- MySQL: 8
+
+---
+
+## code style
+- models: PascalCase
+- classnames: PascalCase
+- methods: PascalCase
+- properties: PascalCase
+- private variables: _camelCase
+- constants: UPPER_CASE
+
+Example
+
+
+public class ProductService
+{
+private readonly AppDbContext _db;
+
+public void LoadProducts()
+{
+}
+
+}
+
+
+---
+
+## folders & files
+
+- models in `Data`
+- validations in `Data/Validation`
+- Pages in `Pages`
+- business logic in `Services`
+- helper functions in `Helpers`
+
+Example structure
+
+
+/Data
+/Data/Models
+/Data/Validation
+
+/Pages
+/Pages/Product
+/Pages/User
+
+/Services
+
+/Helpers
+
+/Assets
+
+
+---
+
+## CRUD Functions
+
+Every entity should support basic CRUD functionality.
+
+Standard pages
+
+- OverviewPage
+- CreatePage
+- DetailPage
+- EditPage
+
+Naming example
+
+
+ProductOverviewPage.xaml
+ProductCreatePage.xaml
+ProductEditPage.xaml
+ProductDetailPage.xaml
+
+
+Database tables
+
+- tablenames: PascalCase
+- primary key: Id
+
+Example
+
+
+User
+Product
+Order
+OrderProduct
+
+
+---
+
+## validation
+
+- validations belong in the ViewModel
+- use DataConverters for simple format checks
+- avoid validation inside UI code
+
+Examples
+
+
+number validation
+date validation
+string length validation
+
+
+---
+
+## database
+
+- database engine: MySQL
+- version: 8.0
+
+Entity rules
+
+- every table has an `Id`
+- foreign keys must be explicit
+- navigation properties should be defined
+- DbContext name must be `AppDbContext`
+
+Example
+
+
+public DbSet<User> Users { get; set; }
+public DbSet<Product> Products { get; set; }
+
+
+---
+
+## file- and mapstructure
+
+
+/Pages
+/Data
+/Services
+/Helpers
+/Assets
+/Views
+
+
+Explanation
+
+- `/Pages` → only XAML pages
+- `/Data` → models, DbContext and validation
+- `/Services` → API calls, datastore logic, calculations
+- `/Helpers` → utility classes
+- `/Assets` → images, icons, fonts
+- `/Views` → reusable UI components
+
+---
+
+## XAML template
+
+Use strong binding.
+
+Example
+
+<TextBlock Text="{x:Bind Product.Name}" /> ```
+
+Rules
+
+prefer {x:Bind} instead of {Binding}
+use reusable UI components
+application theme: darkmode
+commands
+
+Commands must be used instead of click-events.
+
+Not allowed
+
+<Button Click="Button_Click"/>
+
+Allowed
+
+<Button Command="{x:Bind SaveCommand}"/>
+
+Commands may be named in Dutch if required.
+
+Layouts (Reusable UI)
+
+Reusable UI components must be stored in
+
+/Views/Layouts
+
+Naming rule
+
+HeaderLayout.xaml
+FooterLayout.xaml
+DashboardLayout.xaml
+
+Layouts should contain
+
+navigation
+headers
+shared UI blocks
+authentication
+
+Use BCrypt for password hashing.
+
+Example
+
+string hash = BCrypt.Net.BCrypt.HashPassword(password);
+
+Verify password
+
+BCrypt.Net.BCrypt.Verify(password, user.PasswordHash);
+
+Never store plain passwords.
+
+notifications
+
+Use WinUI components for notifications.
+
+Allowed
+
+InfoBar
+ContentDialog
+AppNotification
+
+Example
+
+MyInfoBar.Title = "Success";
+MyInfoBar.Message = "Product saved";
+MyInfoBar.IsOpen = true;
+error handling
+
+Always check for null values.
+
+Example
+
+var user = db.Users.FirstOrDefault();
+
+if (user == null)
+{
+    return;
+}
+
+Use safe parsing.
+
+double.TryParse(value, out double result)
+architecture overview
+Pages (UI)
+
+↓
+
+Services (Logic)
+
+↓
+
+Data (DbContext + Models)
+
+↓
+
+Database
+
+This structure keeps the application maintainable and scalable.
+
+
+---
+
+Als je wil kan ik ook een **veel sterkere versie maken die echte bedrijven gebruiken**, bijvoorbeeld:
+
+- **WinUI Clean Architecture**
+- **WinUI + EF Core + API conventions**
+- **WinUI MVVM conventions**
+- **Enterprise project structure**
+
+Dat is meestal wat **docenten en bedrijven verwachten bij een C# project**.
+nee stuur de mijne maar dan wat meer erin
+
+Hier is jouw eigen structuur, maar uitgebreid met meer regels en duidelijker.
+Ik heb je stijl behouden en alleen meer professionele conventies toegevoegd zonder het helemaal te veranderen.
+
+Je kunt dit opslaan als WinUI3-Conventions.md.
+
+### 🧭 WinUI Project Conventions
+
+# Project conventions
+
+## General guidelines
+- Always use WinUI built-in structures
+- All code must be written in english
+- Avoid business logic inside XAML code-behind
+- Keep UI, logic and data separated
+- Prefer reusable components instead of duplicated UI
+- Always use descriptive names for variables, classes and pages
+- Avoid magic numbers or hardcoded values in code
+- Keep methods small and readable
+- Always check for null values before accessing objects
+
+---
+
+## code languages & frameworks
+- backend: C#
+- frontend: XAML
+- packages:
+  - WinUI
+  - EntityFrameworkCore
+  - BCrypt.Net
+
+---
+
+## versions
+- WinUI: 3
+- C#: 12
+- .NET: 8
+- MySQL: 8
+
+---
+
+## code style
+- models: PascalCase
+- functions: PascalCase
+- classnames: PascalCase
+- properties: PascalCase
+- private variables: _camelCase
+- constants: UPPER_CASE
+
+Example
+
+
+public class ProductService
+{
+private readonly AppDbContext _db;
+
+public void LoadProducts()
+{
+}
+
+}
+
+
+---
+
+## naming conventions
+
+### classes
+PascalCase
+
+Example
+
+
+ProductService
+UserRepository
+NotificationService
+
+
+### variables
+camelCase
+
+
+userId
+productList
+selectedUser
+
+
+### database tables
+PascalCase
+
+
+User
+Product
+Order
+OrderProduct
+
+
+### primary keys
+Always use
+
+
+Id
+
+
+### foreign keys
+
+
+UserId
+ProductId
+OrderId
+
+
+---
+
+## folders & files
+- models in `Data`
+- validations in `Data/Validation`
+- DbContext in `Data`
+- Pages in `Pages`
+- services in `Services`
+- helpers in `Helpers`
+- reusable UI in `Views`
+
+Example structure
+
+
+/Data
+/Data/Models
+/Data/Validation
+/Data/AppDbContext.cs
+
+/Pages
+/Pages/Product
+/Pages/User
+/Pages/Orders
+
+/Services
+
+/Helpers
+
+/Views
+
+/Assets
+
+
+---
+
+## CRUD Functions
+
+Each entity must support CRUD operations.
+
+Standard pages
+
+- OverviewPage
+- CreatePage
+- DetailPage
+- EditPage
+
+Example
+
+
+ProductOverviewPage.xaml
+ProductCreatePage.xaml
+ProductDetailPage.xaml
+ProductEditPage.xaml
+
+
+CRUD operations
+
+- Create
+- Read
+- Update
+- Delete
+
+Example
+
+
+db.Products.Add(product)
+db.Products.Remove(product)
+db.SaveChanges()
+
+
+---
+
+## validation
+- validations belong in the ViewModel
+- never validate directly inside XAML
+- use DataConverters for simple format checks
+- use validation attributes where possible
+
+Examples
+
+
+number validation
+date validation
+required fields
+string length validation
+
+
+Example
+
+
+if(string.IsNullOrWhiteSpace(NameTextBox.Text))
+{
+return;
+}
+
+
+---
+
+## database
+- database engine: MySQL
+- version: 8.0
+
+Entity rules
+
+- every table must have an `Id`
+- relationships must use foreign keys
+- navigation properties should always be defined
+- DbContext name must be `AppDbContext`
+- DbSet names must be plural
+
+Example
+
+
+public DbSet<User> Users { get; set; }
+public DbSet<Product> Products { get; set; }
+public DbSet<Order> Orders { get; set; }
+
+
+---
+
+## Entity rules
+
+Entities must only contain:
+
+- properties
+- navigation properties
+- simple calculated fields
+
+Avoid
+
+- database queries
+- service logic
+- API calls
+
+Example
+
+
+public double TotalPrice => OrderProducts.Sum(p => p.Product.Price);
+
+
+---
+
+## file- and mapstructure
+
+
+/Pages
+/Data
+/Services
+/Helpers
+/Views
+/Assets
+
+
+Explanation
+
+- `/Pages` → only XAML pages
+- `/Data` → models, DbContext and validation
+- `/Services` → API calls, datastore logic, calculations
+- `/Helpers` → utility classes
+- `/Views` → reusable UI components
+- `/Assets` → images, icons and fonts
+
+---
+
+## XAML template
+
+Use strong binding.
+
+Example
+
+<TextBlock Text="{x:Bind Product.Name}" /> ```
+
+Rules
+
+prefer {x:Bind} instead of {Binding}
+use x:DataType for compile-time checking
+avoid inline logic in XAML
+application theme: darkmode
+
+Example
+
+<DataTemplate x:DataType="models:Product">
+commands
+
+Commands should be used instead of click-events where possible.
+
+Not allowed
+
+<Button Click="Button_Click"/>
+
+Allowed
+
+<Button Command="{x:Bind SaveCommand}"/>
+
+Commands may be named in Dutch if required.
+
+Layouts (Reusable UI)
+
+Reusable UI components must be stored in
+
+/Views/Layouts
+
+Naming rule
+
+HeaderLayout.xaml
+FooterLayout.xaml
+DashboardLayout.xaml
+NavigationLayout.xaml
+
+Layouts should contain
+
+navigation
+headers
+shared UI components
+reusable page structures
+authentication
+
+Use BCrypt for password hashing.
+
+Example
+
+string hash = BCrypt.Net.BCrypt.HashPassword(password);
+
+Verify password
+
+BCrypt.Net.BCrypt.Verify(password, user.PasswordHash);
+
+Rules
+
+never store plain passwords
+always store hashed passwords
+password property name must be
+PasswordHash
+notifications
+
+Use WinUI components for notifications.
+
+Allowed components
+
+InfoBar
+ContentDialog
+
+Example
+
+MyInfoBar.Title = "Success";
+MyInfoBar.Message = "Product saved";
+MyInfoBar.IsOpen = true;
+error handling
+
+Always check for null values.
+
+Example
+
+var user = db.Users.FirstOrDefault();
+
+if(user == null)
+{
+    return;
+}
+
+Use safe parsing.
+
+double.TryParse(value, out double result)
