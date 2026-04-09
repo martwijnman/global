@@ -1,0 +1,546 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\product\\myproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\product\\myproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\user\\overviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\user\\overviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\review\\overviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\review\\overviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\data\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\data\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\product\\overviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\product\\overviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\layouts\\publiclayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\layouts\\publiclayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\layouts\\publiclayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\layouts\\publiclayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\login\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\login\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\order\\overviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\order\\overviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\layouts\\moderatorlayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\layouts\\moderatorlayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\product\\myproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\product\\myproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\login\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\login\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\login\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\login\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\login\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\login\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\data\\productuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\data\\productuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\product\\overviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\product\\overviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\layouts\\moderatorlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\layouts\\moderatorlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\order\\overviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\order\\overviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\product\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\product\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\tradehubapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\tradehubapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\user\\overviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\user\\overviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\review\\overviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\review\\overviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\User\\OverviewPage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TradeHubApp\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\User\\OverviewPage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|c:\\users\\martw\\source\\repos\\tradehubapp\\tradehubapp\\product\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25884F7C-4627-4249-8B2F-1DF147998991}|TradeHubApp\\TradeHubApp.csproj|solutionrelative:tradehubapp\\product\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\martw\\.nuget\\packages\\microsoft.windowsappsdk.winui\\1.8.260224000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PublicLayout.xaml",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Layouts\\PublicLayout.xaml",
+              "RelativeDocumentMoniker": "TradeHubApp\\Layouts\\PublicLayout.xaml",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Layouts\\PublicLayout.xaml",
+              "RelativeToolTip": "TradeHubApp\\Layouts\\PublicLayout.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T14:27:05.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OverviewPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Product\\OverviewPage.xaml.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Product\\OverviewPage.xaml.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Product\\OverviewPage.xaml.cs",
+              "RelativeToolTip": "TradeHubApp\\Product\\OverviewPage.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:43:44.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Data\\Review.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Data\\Review.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Data\\Review.cs",
+              "RelativeToolTip": "TradeHubApp\\Data\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:10:39.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OverviewPage.xaml",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Review\\OverviewPage.xaml",
+              "RelativeDocumentMoniker": "TradeHubApp\\Review\\OverviewPage.xaml",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Review\\OverviewPage.xaml",
+              "RelativeToolTip": "TradeHubApp\\Review\\OverviewPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T11:18:24.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OverviewPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\User\\OverviewPage.xaml.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\User\\OverviewPage.xaml.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\User\\OverviewPage.xaml.cs",
+              "RelativeToolTip": "TradeHubApp\\User\\OverviewPage.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:45:34.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyProductPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Product\\MyProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Product\\MyProductPage.xaml.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Product\\MyProductPage.xaml.cs",
+              "RelativeToolTip": "TradeHubApp\\Product\\MyProductPage.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwC8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T15:12:10.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Login\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Login\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Login\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "TradeHubApp\\Login\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T12:38:05.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Login\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Login\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Login\\LoginPage.xaml.cs",
+              "RelativeToolTip": "TradeHubApp\\Login\\LoginPage.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:30:36.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Login\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "TradeHubApp\\Login\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Login\\RegisterPage.xaml",
+              "RelativeToolTip": "TradeHubApp\\Login\\RegisterPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T11:21:08.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TradeHubApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T18:55:31.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OverviewPage.xaml",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Order\\OverviewPage.xaml",
+              "RelativeDocumentMoniker": "TradeHubApp\\Order\\OverviewPage.xaml",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Order\\OverviewPage.xaml",
+              "RelativeToolTip": "TradeHubApp\\Order\\OverviewPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T17:45:00.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TradeHubApp\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:02:59.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PublicLayout.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Layouts\\PublicLayout.xaml.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Layouts\\PublicLayout.xaml.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Layouts\\PublicLayout.xaml.cs",
+              "RelativeToolTip": "TradeHubApp\\Layouts\\PublicLayout.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAC4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T14:30:15.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ModeratorLayout.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Layouts\\ModeratorLayout.xaml.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Layouts\\ModeratorLayout.xaml.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Layouts\\ModeratorLayout.xaml.cs",
+              "RelativeToolTip": "TradeHubApp\\Layouts\\ModeratorLayout.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T16:42:22.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Data\\Order.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Data\\Order.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Data\\Order.cs",
+              "RelativeToolTip": "TradeHubApp\\Data\\Order.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:09:56.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Login\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "TradeHubApp\\Login\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Login\\LoginPage.xaml",
+              "RelativeToolTip": "TradeHubApp\\Login\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T11:20:37.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TradeHubApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\MainWindow.xaml",
+              "RelativeToolTip": "TradeHubApp\\MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T18:56:11.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MyProductPage.xaml",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Product\\MyProductPage.xaml",
+              "RelativeDocumentMoniker": "TradeHubApp\\Product\\MyProductPage.xaml",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Product\\MyProductPage.xaml",
+              "RelativeToolTip": "TradeHubApp\\Product\\MyProductPage.xaml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAtwBMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T15:11:38.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Data\\User.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Data\\User.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Data\\User.cs",
+              "RelativeToolTip": "TradeHubApp\\Data\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:08:45.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductUser.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Data\\ProductUser.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Data\\ProductUser.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Data\\ProductUser.cs",
+              "RelativeToolTip": "TradeHubApp\\Data\\ProductUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:14:47.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Data\\Product.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Data\\Product.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Data\\Product.cs",
+              "RelativeToolTip": "TradeHubApp\\Data\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:09:36.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OverviewPage.xaml",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Product\\OverviewPage.xaml",
+              "RelativeDocumentMoniker": "TradeHubApp\\Product\\OverviewPage.xaml",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Product\\OverviewPage.xaml",
+              "RelativeToolTip": "TradeHubApp\\Product\\OverviewPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T11:18:49.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ModeratorLayout.xaml",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Layouts\\ModeratorLayout.xaml",
+              "RelativeDocumentMoniker": "TradeHubApp\\Layouts\\ModeratorLayout.xaml",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Layouts\\ModeratorLayout.xaml",
+              "RelativeToolTip": "TradeHubApp\\Layouts\\ModeratorLayout.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T16:40:20.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OverviewPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Order\\OverviewPage.xaml.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Order\\OverviewPage.xaml.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Order\\OverviewPage.xaml.cs",
+              "RelativeToolTip": "TradeHubApp\\Order\\OverviewPage.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T17:54:50.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Product\\DetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Product\\DetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Product\\DetailPage.xaml.cs",
+              "RelativeToolTip": "TradeHubApp\\Product\\DetailPage.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAhwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T14:40:06.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OverviewPage.xaml",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\User\\OverviewPage.xaml",
+              "RelativeDocumentMoniker": "TradeHubApp\\User\\OverviewPage.xaml",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\User\\OverviewPage.xaml",
+              "RelativeToolTip": "TradeHubApp\\User\\OverviewPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T11:19:17.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OverviewPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Review\\OverviewPage.xaml.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\Review\\OverviewPage.xaml.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Review\\OverviewPage.xaml.cs",
+              "RelativeToolTip": "TradeHubApp\\Review\\OverviewPage.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:45:14.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TradeHubApp",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\TradeHubApp.csproj",
+              "RelativeDocumentMoniker": "TradeHubApp\\TradeHubApp.csproj",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\TradeHubApp.csproj",
+              "RelativeToolTip": "TradeHubApp\\TradeHubApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-08T11:16:40.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OverviewPage.g.cs",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\User\\OverviewPage.g.cs",
+              "RelativeDocumentMoniker": "TradeHubApp\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\User\\OverviewPage.g.cs",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\User\\OverviewPage.g.cs",
+              "RelativeToolTip": "TradeHubApp\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\User\\OverviewPage.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T16:35:03.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Product\\DetailPage.xaml",
+              "RelativeDocumentMoniker": "TradeHubApp\\Product\\DetailPage.xaml",
+              "ToolTip": "C:\\Users\\martw\\source\\repos\\TradeHubApp\\TradeHubApp\\Product\\DetailPage.xaml",
+              "RelativeToolTip": "TradeHubApp\\Product\\DetailPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T14:39:32.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "DocumentMoniker": "C:\\Users\\martw\\.nuget\\packages\\microsoft.windowsappsdk.winui\\1.8.260224000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.windowsappsdk.winui\\1.8.260224000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "ToolTip": "C:\\Users\\martw\\.nuget\\packages\\microsoft.windowsappsdk.winui\\1.8.260224000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.windowsappsdk.winui\\1.8.260224000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "ViewState": "AgIAAO4BAAAAAAAAAAAmwPwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-08T15:43:51.536Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

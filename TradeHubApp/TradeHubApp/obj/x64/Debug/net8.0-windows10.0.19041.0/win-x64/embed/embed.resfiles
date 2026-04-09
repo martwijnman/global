@@ -1,0 +1,12 @@
+App.xbf
+Layouts\ModeratorLayout.xbf
+Layouts\PublicLayout.xbf
+Login\LoginPage.xbf
+Login\RegisterPage.xbf
+MainWindow.xbf
+Order\OverviewPage.xbf
+Product\DetailPage.xbf
+Product\MyProductPage.xbf
+Product\OverviewPage.xbf
+Review\OverviewPage.xbf
+User\OverviewPage.xbf

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TradeHubApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "TradeHubApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

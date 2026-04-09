@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="TradeHubApp.Review.OverviewPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TradeHubApp.Review"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:TradeHubApp.Data"
+    mc:Ignorable="d">
+
+    <ScrollViewer>
+        <StackPanel>
+
+            <ListView x:ConnectionId='2' x:Name="ReviewListView">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate                           >
+
+                        <Button x:ConnectionId='4'                            >
+                            Bekijk
+                        </Button>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+        </StackPanel>
+    </ScrollViewer>
+
+</Page>
+
