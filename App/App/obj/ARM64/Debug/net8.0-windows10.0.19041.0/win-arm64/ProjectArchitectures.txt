@@ -1,0 +1,1 @@
+C:\Users\martw\source\repos\App\App\App.csproj;arm64
