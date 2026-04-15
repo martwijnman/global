@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WGi/AMQWPzI=",
+  "dgSpecHash": "ppf2JjFVv68=",
   "success": true,
-  "projectFilePath": "C:\\Users\\martw\\source\\repos\\App\\App\\App.csproj",
+  "projectFilePath": "C:\\Users\\martw\\AndroidStudioProjects\\global\\App\\App\\App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\martw\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.25\\microsoft.entityframeworkcore.8.0.25.nupkg.sha512",
     "C:\\Users\\martw\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.25\\microsoft.entityframeworkcore.abstractions.8.0.25.nupkg.sha512",

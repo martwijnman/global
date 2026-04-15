@@ -1,0 +1,91 @@
+Filtert de afspraken op basis van de gekozen klant en vernieuwt daarna de kalendermarkers.
+
+private void ClientComboBox_SelectionChanged(
+    object sender,
+    SelectionChangedEventArgs e)
+{
+    if (ClientComboBox.SelectedItem is Client client)
+    {
+        using var db = new AppDbContext();
+
+        if (client.Id == 0)
+        {
+            // Toon alle afspraken wanneer 'Alle klanten' is geselecteerd.
+            _allAppointments = db.Appointments
+                .Include(a => a.Client)
+                .OrderByDescending(a => a.DateTime)
+                .ToList();
+        }
+        else
+        {
+            // Toon alleen afspraken voor de geselecteerde klant.
+            _allAppointments = db.Appointments
+                .Include(a => a.Client)
+                .Where(a => a.ClientId == client.Id)
+                .OrderByDescending(a => a.DateTime)
+                .ToList();
+        }
+
+        RefreshCalendarMarkers();
+
+        if (CalendarControl.SelectedDates.Count > 0)
+        {
+            DateTime selectedDate = CalendarControl.SelectedDates[0].Date;
+            LoadAppointmentsForDate(selectedDate);
+        }
+        else
+        {
+            DayAppointmentsControl.ItemsSource = null;
+            UpdateSelectedDayStatus(null);
+            CalendarControl.SelectedDates.Clear();
+        }
+    }
+}
+
+Controleert of er afspraken op een specifieke dag bestaan binnen de huidige filter.
+
+private bool HasAppointmentsOnDay(DateTime day)
+{
+    return _allAppointments?.Any(a => a.DateTime.Date == day.Date) == true;
+}
+
+Past de visuele stijl toe op kalenderdagen met afspraken, waardoor ze een gele achtergrond krijgen.
+
+private void ApplyDayItemStyle(CalendarViewDayItem dayItem)
+{
+    DateTime day = dayItem.Date.Date;
+    bool hasAppointments = HasAppointmentsOnDay(day);
+    bool isSelectedDate = CalendarControl?.SelectedDates.Any(d => d.Date.Date == day) == true;
+
+    if (hasAppointments && !isSelectedDate)
+    {
+        dayItem.BorderBrush = new SolidColorBrush(Colors.Red);
+        dayItem.BorderThickness = new Thickness(2);
+        dayItem.Background = new SolidColorBrush(ColorHelper.FromArgb(80, 255, 215, 0));
+        TrySetCornerRadius(dayItem, 20);
+        return;
+    }
+
+    dayItem.BorderBrush = null;
+    dayItem.BorderThickness = new Thickness(0);
+    dayItem.Background = null;
+    TrySetCornerRadius(dayItem, 0);
+}
+
+Vernieuwt de kalenderweergave zodat de markeringen opnieuw worden toegepast na een filterwijziging.
+
+private void RefreshCalendarMarkers()
+{
+    if (CalendarControl == null)
+        return;
+
+    CalendarControl.InvalidateMeasure();
+    CalendarControl.InvalidateArrange();
+    CalendarControl.UpdateLayout();
+    CalendarControl.SetDisplayDate(_currentDate);
+
+    foreach (var dayItem in FindCalendarDayItems(CalendarControl))
+    {
+        ApplyDayItemStyle(dayItem);
+    }
+}
